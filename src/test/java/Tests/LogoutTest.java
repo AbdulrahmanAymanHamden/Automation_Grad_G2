@@ -9,11 +9,9 @@ public class LogoutTest extends BaseTest {
 
     HomePage homePage ;
     SignUpLoginPage signUpLoginPage ;
-
-
-
+    
     @Test
-    @Description("Validatetaht user can logout from his account")
+    @Description("Validate that user can logout from his account")
     public void validateLogout()
     {
         homePage = new HomePage(driver);
